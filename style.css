@@ -1,0 +1,31 @@
+body {
+  text-align: center;
+  background-color: rgb(179, 185, 149);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  position: fixed;
+  width: 100%;
+}
+
+h1{
+  color: #f5f6f0;
+}
+
+p{
+  color: #f5f6f0;
+}
+
+.icon-link {
+  color: #333; /* Color del texto */
+  text-decoration: none; /* Sin subrayado */
+  display: inline-flex; /* Mostrar en línea con flexbox */
+  align-items: center; /* Alinear verticalmente los elementos */
+  margin-top: 10px; /* Margen superior */
+}
+
+.icon-link i {
+  margin-right: 5px; /* Margen derecho entre el icono y el texto */
+}
